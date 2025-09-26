@@ -1,9 +1,9 @@
 header {
-  background-color: #c4661f;
+  background-color: #212121;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 20px;
   height: 150px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
@@ -20,40 +20,43 @@ header {
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 .headbutton {
-  background-color: #a5531c;
+  background-color: gray;
   border: 3px solid black;
   border-radius: 10%;
 }
 
-main{
-
-  
+main {
+  background-color: #858585;
 }
-
+h2 {
+  font-size: 80px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #858585;
+}
 .sections {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 24px;
 }
 #info {
   border: 2px solid black;
   width: 100%;
-  height: 400px;
 }
 #booking {
   border: 2px solid black;
   width: 100%;
-  height: 400px;
+  
 }
 #contact {
   border: 2px solid black;
   width: 100%;
-  height: 400px;
 }
 
 footer {
-  background-color: #c4661f;
+  background-color: #212121;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -61,6 +64,12 @@ footer {
   border: 2px solid black;
   height: 100px;
   padding: 10px;
+}
+.Name {
+  border: 3px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: gray;
 }
 .github_link {
   bottom: 10px;
