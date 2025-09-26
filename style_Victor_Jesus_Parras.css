@@ -1,0 +1,26 @@
+header {
+  background-color: #c4661f;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 150px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+.headerIMG {
+  border: 2px solid black;
+  display: flex;
+  height: 125px;
+}
+
+.slogan {
+    color: #000019;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+.headbutton{
+
+    
+}
