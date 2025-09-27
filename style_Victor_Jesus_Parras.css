@@ -24,9 +24,13 @@ header {
 }
 .headbutton {
   background-color: gray;
-  font-size: 16px;
-  border: 3px solid black;
-  border-radius: 10%;
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  border: 5px solid black;
+ border-radius: 15px;
+  height: 25px;
+  text-decoration: none;
 }
 
 main {
@@ -53,25 +57,30 @@ h2 {
   border: 2px solid black;
   width: 100%;
 }
-.hotelpics {
-  display: flex;  
-  justify-content: space-between;  
-  gap: 200px;            
-}
-.hotelpics img {
-  width: 300px;        
-  height: 200px;       
-  object-fit: cover;    
-  border-radius: 8px;   
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
-}
-.hotelpics img:hover{
-transform: scale(2,2);
-}
 
 #contact {
   border: 2px solid black;
   width: 100%;
+}
+#info:hover,
+#booking:hover,
+#contact:hover {
+  cursor: pointer;
+}
+.hotelpics {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.hotelpics img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.hotelpics img:hover {
+  transform: scale(2, 2);
 }
 footer {
   background-color: #212121;
