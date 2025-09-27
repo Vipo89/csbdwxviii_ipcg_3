@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 header {
-  background-color: #212121;
+  background-color: hsl(0, 0%, 13%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,19 +13,20 @@ header {
 .headerIMG {
   border: 2px solid black;
   display: flex;
-  height: 125px;
+  height: 150px;
+  width: 150px;
 }
 
 .slogan {
-  color: #000019;
+  color: white;
   font-weight: bold;
   font-size: 30px;
-  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 4px 10px rgba(184, 231, 227, 0.8);
 }
 .headbutton {
   background-color: gray;
   font-size: 36px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   border: 5px solid black;
  border-radius: 15px;
@@ -38,7 +39,8 @@ main {
 }
 h2 {
   font-size: 80px;
-  border: 3px solid black;
+  border: 3px solid rgb(0, 0, 0);
+  color: #282135;
   border-radius: 10px;
   background-color: #858585;
 }
@@ -98,16 +100,34 @@ footer {
   color: white;
   background-color: gray;
 }
-.github_link {
+.socials_link {
+  display: inline-block;
   bottom: 10px;
   width: 100px;
   height: 100px;
 }
-.github_link img {
+.socials_link img {
   width: 100%;
   height: 100%;
   transition: opacity 0.3s;
+  object-fit: contain;
 }
-.github_link :hover {
+.socials_link:hover {
   opacity: 0.7s;
+}
+.home img{
+width: 100px;
+border: 4px solid white;
+height: auto;
+}
+
+h3{
+font-size: 80px;
+  border: 3px solid rgb(0, 0, 0);
+  color: #282135;
+  border-radius: 10px;
+  background-color: #858585;
+  text-align: center;
+  padding: 100px;
+
 }
