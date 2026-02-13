@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: hsl(0, 0%, 13%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 150px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+.headerIMG {
+  border: 2px solid black;
+  display: flex;
+  height: 150px;
+  width: 150px;
+}
+
+.slogan {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 4px 10px rgba(184, 231, 227, 0.8);
+}
+.headbutton {
+  background-color: gray;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 5px solid black;
+  border-radius: 15px;
+  height: 25px;
+  text-decoration: none;
+}
+
+main {
+  background-color: #858585;
+}
+h2 {
+  font-size: 80px;
+  border: 3px solid rgb(0, 0, 0);
+  color: #282135;
+  border-radius: 10px;
+  background-color: #858585;
+}
+.sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: 24px;
+}
+#info {
+  border: 2px solid black;
+  width: 100%;
+}
+#booking {
+  border: 2px solid black;
+  width: 100%;
+}
+
+#contact {
+  border: 2px solid black;
+  width: 100%;
+}
+#info:hover,
+#booking:hover,
+#contact:hover {
+  cursor: pointer;
+}
+.hotelpics {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.hotelpics img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.hotelpics img:hover {
+  transform: scale(2, 2);
+}
+footer {
+  background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 100px;
+  padding: 10px;
+}
+.name {
+  border: 3px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: gray;
+}
+.socials_link {
+  display: inline-block;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+.socials_link img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s;
+  object-fit: contain;
+}
+.socials_link:hover {
+  opacity: 0.7s;
+}
+.home img {
+  width: 100px;
+  border: 4px solid white;
+  height: auto;
+}
+h3 {
+  font-size: 80px;
+  border: 3px solid rgb(0, 0, 0);
+  color: #282135;
+  border-radius: 10px;
+  background-color: #858585;
+  text-align: center;
+  padding: 100px;
+}
+.roomimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.roomimg img {
+  width: 300px;   /* ajusta según lo que quieras */
+  height: auto;
+}
+.rooms {
+  font-weight: bold;
+  color: black;
+  font-size: 36px;
+}
