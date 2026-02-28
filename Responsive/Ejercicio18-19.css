@@ -1,0 +1,15 @@
+.box-1 {
+    border: solid 1px black;
+    padding: 8px 12px;
+    margin: 10px 20px;
+}
+#banner-fijo {
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
